@@ -1,0 +1,156 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.search_box {
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+
+.input_box {
+    color: white;
+    background: bottom;
+    color: white;
+    font-size: unset;
+    max-width: 7em;
+    text-align: center;
+    border-style: dashed;
+    border-radius: 0.25rem;
+}
+
+.search_button {
+    color: rgb(208, 208, 208);
+    background: bottom;
+    font-size: unset;
+    max-width: 7em;
+    text-align: center;
+    border-radius: 0.25rem;
+}
+
+.search_button:disabled {
+    color: rgb(144, 144, 144);
+}
+
+input[type="number"] {
+    -webkit-appearance: textfield;
+       -moz-appearance: textfield;
+            appearance: textfield;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+-webkit-appearance: none;
+}
+
+.content_display {
+    margin-top: 1rem;
+}
+
+.guide_text {
+    font-size: large;
+}
+
+.guide_container {
+    background-color: rgb(60, 67, 80);
+    border-radius: 0.25rem;
+    padding-top: 0.5rem;
+    position: relative;
+}
+
+.guide_close {
+    fill: #2c3039;
+    width: 2rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.error_message {
+    background-color: rgba(117, 33, 26, 0.7);
+    border-radius: 0.5rem;
+    color: #ff8484;
+    border: #a30202;
+    border-style: solid;
+    font-family: monospace;
+    font-size: 1.25rem;
+    width: 100%;
+}
+
+.guide_message {
+    background-color: rgba(33, 89, 126, 0.7);
+    border-radius: 0.5rem;
+    color: #73a3c1;
+    border: #11466a;
+    border-style: solid;
+    font-family: monospace;
+    font-size: 1.25rem;
+    width: 100%;
+}
+
+.guide_plot {
+    display: flex;
+    flex-direction: column;
+}
+
+.plot_entries {
+    font-size: smaller;
+    display: inline-flex;
+    justify-content: space-evenly;
+    padding: 1.25rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .plot_entries {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+  }
+
+.plot_entries a {
+    color: #ffcc00;
+    background-color: #494b3b;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    border-style: solid;
+    border-color: #383e49;
+}
+
+.plot_entries a:link {
+  color: #ffcc00;
+}
+
+.plot_entries a:visited {
+  color: #ffa200;
+}
+
+.plot_entries a:hover {
+    background-color: #4b433b;
+}
+
+.plot_link {
+    font-size: 1.10rem;
+}
+
+.plot_city {
+    font-size: smaller;
+    color: #d9d9d9;
+}
+.plot_city strong {
+    color: #f9c366;
+}
+.plot_loc {
+    font-size: medium;
+    transform: translateY(7px);
+}
+
+.loading_svg {
+    margin: 0 auto;
+    height: 69px;
+}
+
+.loading_svg svg{
+    margin: 0 auto;
+}
