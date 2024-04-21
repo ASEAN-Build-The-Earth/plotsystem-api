@@ -16,6 +16,7 @@ jobs:
       - run: |
           git config --global user.email "sukrit_dinosuar@hotmail.com"
           git config --global user.name "tintinkung"
+          git remote add origin https://github.com/ASEAN-Build-The-Earth/plotsystem-api.git
 
       - name: Setup and Install
         uses: actions/setup-node@main
