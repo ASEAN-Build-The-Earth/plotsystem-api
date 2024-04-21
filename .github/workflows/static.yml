@@ -12,9 +12,9 @@ jobs:
     name: Build and Push
     steps:
       - uses: actions/checkout@master
-      - name: Checkout
-      - run: git config --global user.email "sukrit_dinosuar@hotmail.com"
-      - run: git config --global user.name "tintinkung"
+      - name: Use Node.js
+        run: git config --global user.email "sukrit_dinosuar@hotmail.com"
+        run: git config --global user.name "tintinkung"
 
       - uses: actions/setup-node@main
       - name: Setup
