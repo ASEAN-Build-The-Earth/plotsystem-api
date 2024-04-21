@@ -26,9 +26,6 @@ const ResultContent = {
                 >In Google Earth</a>
             </span>
         </div>
-        <button>
-
-        </button>
         <svg onClick={onCLick} role="close_button" className="guide_close" viewBox="-45 150 700 700" xmlns="http://www.w3.org/2000/svg">
             <path d="M640 320L512 192 320 384 128 192 0 320l192 192L0 704l128 128 192-192 192 192 128-128L448 512 640 320z"/>
         </svg>

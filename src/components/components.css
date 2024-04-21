@@ -28,9 +28,7 @@
     border-radius: 0.25rem;
 }
 
-.search_button:disabled {
-    color: rgb(144, 144, 144);
-}
+.search_button:disabled { color: rgb(144, 144, 144); }
 
 input[type="number"] {
     -webkit-appearance: textfield;
@@ -42,14 +40,9 @@ input[type=number]::-webkit-outer-spin-button {
 -webkit-appearance: none;
 }
 
-.content_display {
-    margin-top: 1rem;
-}
+.content_display { margin-top: 1rem; }
 
-.guide_text {
-    font-size: large;
-}
-
+.guide_text { font-size: large; }
 .guide_container {
     background-color: rgb(60, 67, 80);
     border-radius: 0.25rem;
@@ -118,29 +111,17 @@ input[type=number]::-webkit-outer-spin-button {
     border-color: #383e49;
 }
 
-.plot_entries a:link {
-  color: #ffcc00;
-}
-
-.plot_entries a:visited {
-  color: #ffa200;
-}
-
-.plot_entries a:hover {
-    background-color: #4b433b;
-}
-
-.plot_link {
-    font-size: 1.10rem;
-}
+.plot_entries a:link { color: #ffcc00; }
+.plot_entries a:visited { color: #ffa200; }
+.plot_entries a:hover { background-color: #4b433b; }
+.plot_link { font-size: 1.10rem; }
 
 .plot_city {
     font-size: smaller;
     color: #d9d9d9;
 }
-.plot_city strong {
-    color: #f9c366;
-}
+.plot_city strong { color: #f9c366; }
+
 .plot_loc {
     font-size: medium;
     transform: translateY(7px);
@@ -151,6 +132,4 @@ input[type=number]::-webkit-outer-spin-button {
     height: 69px;
 }
 
-.loading_svg svg{
-    margin: 0 auto;
-}
+.loading_svg svg{ margin: 0 auto; }
