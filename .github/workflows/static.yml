@@ -17,11 +17,12 @@ jobs:
           git config --global user.email "sukrit_dinosuar@hotmail.com"
           git config --global user.name "tintinkung"
 
-      - name: Setup
+      - name: Setup and Install
         uses: actions/setup-node@main
         with:
           node-version: 18.x
-          
+      - run: npm install
+        
       - name: Build
         run: npm run deploy # The build command of your project
         env:
