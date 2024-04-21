@@ -11,14 +11,16 @@ jobs:
     runs-on: ubuntu-latest
     name: Build and Push
     steps:
-      - name: git-checkout
+      - name: git-checkout@master
         uses: actions/checkout@v2
-
-      - name: Install all dependencies
-        run: npm install
+        run: git config --global user.email "sukrit_dinosuar@hotmail.com"
+        run: git config --global user.name "tintinkung"
 
       - name: Build
         run: npm run deploy # The build command of your project
+        
+      - name: Push
+        uses: s0/git-publish-subdir-action@develop
         env:
           REPO: self
           BRANCH: gh-pages # The branch name where you want to push the assets
