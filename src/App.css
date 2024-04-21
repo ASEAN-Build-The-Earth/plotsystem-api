@@ -29,6 +29,10 @@
 .app_link {
   display: flex;
   align-items: flex-end;
+  color: #323842;
+}
+.app_link:hover {
+  color: #3a414c;
 }
 .github_link { color: #aeafb1; }
 .website_link { color: #d1b456; }
