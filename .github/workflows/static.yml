@@ -11,13 +11,13 @@ jobs:
     runs-on: ubuntu-latest
     name: Build and Push
     steps:
-      - uses: actions/checkout@master
-      - name: Use Node.js
+      - name: Checkout
+        uses: actions/checkout@v3
         run: git config --global user.email "sukrit_dinosuar@hotmail.com"
         run: git config --global user.name "tintinkung"
 
-      - uses: actions/setup-node@main
       - name: Setup
+        uses: actions/setup-node@main
         with:
           node-version: 18.x
           
