@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/plotsystem-api/static/css/main.24404bbd.css",
+    "main.js": "/plotsystem-api/static/js/main.e3fde2e0.js",
+    "static/js/453.9e6eded3.chunk.js": "/plotsystem-api/static/js/453.9e6eded3.chunk.js",
+    "static/media/aseanbte_logo.gif": "/plotsystem-api/static/media/aseanbte_logo.754612bc76e2469e2e24.gif",
+    "index.html": "/plotsystem-api/index.html",
+    "main.24404bbd.css.map": "/plotsystem-api/static/css/main.24404bbd.css.map",
+    "main.e3fde2e0.js.map": "/plotsystem-api/static/js/main.e3fde2e0.js.map",
+    "453.9e6eded3.chunk.js.map": "/plotsystem-api/static/js/453.9e6eded3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.24404bbd.css",
+    "static/js/main.e3fde2e0.js"
+  ]
+}
