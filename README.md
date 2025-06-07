@@ -15,3 +15,5 @@ It is no longer in use and the back-end source code is long gone.
 > We now have a better implementation in to integrating Plot-System to the discord server itself.
 > 
 > Take a look at: https://github.com/ASEAN-Build-The-Earth/discordsrv-plotsystem
+
+![image](https://github.com/user-attachments/assets/fa0aff82-ab01-4b32-87ed-e5c1baf57036)
